@@ -1,0 +1,152 @@
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  outline: 1px solid black;
+}
+
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header{
+  outline: 1px solid black;
+}
+
+nav{
+  width: 1160px;
+  margin: 0 auto;
+  outline: 1px solid black;
+}
+
+.logo{
+  display: none;
+  width: 150px;
+  outline: 1px solid black;
+}
+
+.greeting{
+  outline: 1px solid black;
+}
+
+.greeting-img{
+  width: 460px;
+  margin-top: 75px;
+  margin-bottom: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  /* временно */
+  background: lightgrey;
+  outline: 1px solid black;
+}
+
+.greetin-text{
+  width: 574px;
+  margin-bottom: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+}
+
+.first-reasons{
+  outline: 1px solid black;
+}
+
+.first-reasons::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blue-block{
+  float: left;
+  width: 400px;
+  min-height: 260px;
+  outline: 1px solid black;
+}
+
+.first-reasons-pic{
+  float: right;
+  width: 800px;
+}
+
+.features{
+  font-size: 0;
+}
+
+.features-item{
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  min-height: 330px;
+  outline: 1px solid black;
+}
+
+.last-reasons{
+  font-size: 0;
+}
+
+.last-reasons-item{
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  min-height: 255px;
+  outline: 1px solid black;
+}
+
+.last-reasons b, .features-item b{
+  font-size: 21px;
+}
+
+.last-reasons p, .features-item p{
+  font-size: 14px;
+}
+
+.hotels{
+  min-height: 290px;
+  outline: 1px solid black;
+}
+
+.hotels form{
+  display: none;
+}
+
+.map{
+  min-height: 475px;
+  outline: 1px solid black;
+}
+
+footer{
+  min-height: 120px;
+  outline: 1px solid black;
+}
+
+.visit-sedona{
+  float: left;
+  margin-left: 70px;
+  width: 240px;
+  min-height: 120px;
+  outline: 1px solid black;
+}
+
+.footer-social{
+  float: left;
+  margin-left: 90px;
+  width: 400px;
+  min-height: 120px;
+  outline: 1px solid black;
+}
+
+.footer-academy{
+  float: left;
+  margin-left: 90px;
+  width: 240px;
+  min-height: 120px;
+  outline: 1px solid black;
+}
+
+/*Временно*/
+ul{
+  margin: 0;
+}
