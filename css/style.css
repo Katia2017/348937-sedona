@@ -150,3 +150,84 @@ footer{
 ul{
   margin: 0;
 }
+
+.hotels-features{
+  min-height: 220px;
+  outline: 1px solid black;
+}
+
+.infrastructure{
+  float: left;
+  width: 190px;
+  margin-left: 70px;
+  outline: 1px solid black;
+}
+
+.housing-type{
+  float: left;
+  width: 190px;
+  margin-left: 50px;
+  outline: 1px solid black;
+}
+
+.filter-range{
+  float: right;
+  width: 330px;
+  margin-right: 75px;
+  outline: 1px solid black;
+}
+
+.found{
+  min-height: 85px;
+  outline: 1px solid black;
+}
+
+.found-b{
+  float: left;
+  width: 150px;
+  margin-left: 70px;
+  outline: 1px solid black;
+}
+
+.found-items{
+  float: left;
+  width: 380px;
+  outline: 1px solid black;
+}
+
+.up-and-down{
+  float: right;
+  width: 45px;
+  margin-right: 75px;
+  outline: 1px solid black;
+}
+
+.found-hotels{
+  min-height: 455px;
+  outline: 1px solid black;
+}
+
+.found-hotels-item{
+  min-height: 150px;
+  outline: 1px solid black;
+}
+
+.hotel-img{
+  float: left;
+  margin-left: 75px;
+  width: 150px;
+  outline: 1px solid black;
+}
+
+.about-hotel{
+  float: left;
+  width: 280px;
+  outline: 1px solid black;
+}
+
+.rating{
+  float: right;
+  width: 120px;
+  margin-right: 75px;
+  outline: 1px solid black;
+}
