@@ -87,7 +87,8 @@ nav a{
 
 .greeting{
   padding-top: 77px;
-  background: #e4f1fa url("../img/background.jp") no-repeat center top;
+  background: #e4f1fa url("../img/background.jpg") no-repeat;
+  background-position: 0% 52%;
   outline: 1px solid black;
 }
 
