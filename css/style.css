@@ -45,8 +45,10 @@ nav ul::after{
 }
 
 nav li{
+  width: 240px;
   margin-top: 13px;
   margin-bottom: 15px;
+  outline: 1px solid black;
 }
 
 nav a{
@@ -56,24 +58,35 @@ nav a{
   outline: 1px solid black;
 }
 
+nav a:hover{
+  color: #81b3d2;
+}
+
+nav a:active{
+  color: #b2b2b2;
+}
+
 .nav-info{
   float: left;
   margin-left: 72px;
+  text-align: left;
 }
 
 .nav-photo{
   float: left;
-  margin-left: 147px;
+  text-align: left;
 }
 
 .nav-map{
   float: left;
-  margin-left: 388px;
+  margin-left: 91px;
+  text-align: right;
 }
 
 .nav-hotels{
   float: right;
   margin-right: 31px;
+  text-align: right;
 }
 
 .logo{
@@ -81,7 +94,6 @@ nav a{
   top: -1px;
   left: 530px;
   display: block;
-  width: 150px;
   outline: 1px solid black;
 }
 
@@ -127,10 +139,6 @@ nav a{
   outline: 1px solid black;
 }
 
-.first-reasons{
-  outline: 1px solid black;
-}
-
 .first-reasons::after{
   content: "";
   display: table;
@@ -140,9 +148,32 @@ nav a{
 .blue-block{
   float: left;
   width: 400px;
-  min-height: 260px;
+  min-height: 256px;
+  background: #81b3d2;
+  color: white;
+  text-align: center;
+}
+
+.blue-block b{
+  display: block;
+  width: 151px;
+  margin: 0 auto;
+  margin-top: 55px;
+  font-size: 21px;
+  line-height: 21px;
   outline: 1px solid black;
 }
+
+.blue-block p{
+  display: block;
+  width: 309.5px;
+  margin: 0 auto;
+  margin-top: 23px;
+  font-size: 14px;
+  line-height: 21px;
+  outline: 1px solid black;
+}
+
 
 .first-reasons-pic{
   float: left;
@@ -157,7 +188,32 @@ nav a{
   display: inline-block;
   vertical-align: top;
   width: 400px;
-  min-height: 330px;
+  min-height: 322px;
+  outline: 1px solid black;
+}
+
+.features-img{
+  display: block;
+  width: 75px;
+  min-height: 98px;
+  margin: 0 auto;
+  margin-top: 53px;
+  outline: 1px solid black;
+}
+
+.features b{
+  display: block;
+  text-align: center;
+  outline: 1px solid black;
+}
+
+.features p{
+  display: block;
+  width: 288px;
+  margin: 0 auto;
+  margin-top: 23px;
+  line-height: 21px;
+  text-align: center;
   outline: 1px solid black;
 }
 
@@ -170,6 +226,8 @@ nav a{
   vertical-align: top;
   width: 400px;
   min-height: 255px;
+  margin-top: 0;
+  background: #eeeeee;
   outline: 1px solid black;
 }
 
