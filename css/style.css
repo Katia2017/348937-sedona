@@ -2,7 +2,7 @@ body{
   min-width: 1200px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 21px;
   font-family: 'PT Sans', "Arial", sans-serif;
   color: #000000;
   text-transform: uppercase;
@@ -47,12 +47,14 @@ nav ul::after{
 nav li{
   width: 240px;
   margin-top: 13px;
-  margin-bottom: 15px;
+  margin-bottom: 19px;
   outline: 1px solid black;
 }
 
 nav a{
   color: #000;
+  font-size: 14px;
+  line-height: 26px;
   font-weight: bold;
   text-decoration: none;
   outline: 1px solid black;
@@ -98,7 +100,8 @@ nav a:active{
 }
 
 .greeting{
-  padding-top: 77px;
+  margin-bottom: 53px;
+  padding-top: 73px;
   background: #e4f1fa url("../img/background.jpg") no-repeat;
   background-position: 0% 52%;
   outline: 1px solid black;
@@ -106,7 +109,7 @@ nav a:active{
 
 .greeting-img{
   width: 460px;
-  margin-bottom: 132px;
+  margin-bottom: 135px;
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid black;
@@ -124,7 +127,7 @@ nav a:active{
   display: block;
   width: 445px;
   margin: 0 auto;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
@@ -135,6 +138,8 @@ nav a:active{
   display: block;
   width: 495px;
   margin: 0 auto;
+  font-size: 14px;
+  line-height: 21px;
   text-align: center;
   outline: 1px solid black;
 }
@@ -180,8 +185,13 @@ nav a:active{
   width: 800px;
 }
 
+.first-reasons-pic img{
+  display: block;
+}
+
 .features{
   font-size: 0;
+  margin-bottom: 8px;
 }
 
 .features-item{
@@ -193,16 +203,26 @@ nav a:active{
 }
 
 .features-img{
+  position: relative;
   display: block;
   width: 75px;
   min-height: 98px;
   margin: 0 auto;
-  margin-top: 53px;
+  margin-top: 60px;
   outline: 1px solid black;
+}
+
+.souvenirs{
+  position: absolute;
+  top: -3px;
+  left: 6px;
 }
 
 .features b{
   display: block;
+  margin-top: 5px;
+  font-size: 21px;
+  line-height: 21px;
   text-align: center;
   outline: 1px solid black;
 }
@@ -212,6 +232,7 @@ nav a:active{
   width: 288px;
   margin: 0 auto;
   margin-top: 23px;
+  font-size: 14px;
   line-height: 21px;
   text-align: center;
   outline: 1px solid black;
@@ -226,17 +247,31 @@ nav a:active{
   vertical-align: top;
   width: 400px;
   min-height: 255px;
-  margin-top: 0;
+  margin-top: 0px;
   background: #eeeeee;
   outline: 1px solid black;
 }
 
-.last-reasons b, .features-item b{
+.last-reasons b{
+  display: block;
+  width: 125px;
+  margin: 0 auto;
+  margin-top: 48px;
   font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+  outline: 1px solid black;
 }
 
-.last-reasons p, .features-item p{
+.last-reasons p{
+  display: block;
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 23px;
   font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  outline: 1px solid black;
 }
 
 .hotels{
