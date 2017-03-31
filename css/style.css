@@ -279,12 +279,52 @@ nav a:active{
   outline: 1px solid black;
 }
 
+.hotels b{
+  display: block;
+  width: 305px;
+  margin: 0 auto;
+  margin-top: 55px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  outline: 1px solid black;
+}
+
+.hotels p{
+  display: block;
+  width: 440px;
+  margin: 0 auto;
+  margin-top: 27px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  outline: 1px solid black;
+}
+
+.search-btn{
+  display: block;
+  width: 568px;
+  height: 86px;
+  margin: 0 auto;
+  margin-top: 47px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background: #766357;
+}
+
 .hotels form{
   display: none;
 }
 
 .map{
   min-height: 475px;
+  background: url("../img/map.jpg");
   outline: 1px solid black;
 }
 
