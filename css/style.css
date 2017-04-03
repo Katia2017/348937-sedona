@@ -100,6 +100,7 @@ nav li:nth-child(3), nav li:nth-child(4){
 
 .greetin::after{
   content: "";
+  display: block;
   position: absolute;
   width: 1200px;
   height: 57px;
