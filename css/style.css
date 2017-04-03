@@ -9,6 +9,7 @@ body{
 }
 
 .container{
+  position: relative;
   width: 1200px;
   margin: 0 auto;
   outline: 1px solid black;
@@ -45,7 +46,7 @@ nav ul::after{
 }
 
 nav li{
-  width: 240px;
+  width: 170px;
   margin-top: 13px;
   margin-bottom: 19px;
   outline: 1px solid black;
@@ -68,26 +69,16 @@ nav a:active{
   color: #b2b2b2;
 }
 
-.nav-info{
+nav li:nth-child(1), nav li:nth-child(2){
   float: left;
   margin-left: 72px;
   text-align: left;
 }
 
-.nav-photo{
-  float: left;
-  text-align: left;
-}
-
-.nav-map{
-  float: left;
-  margin-left: 91px;
-  text-align: right;
-}
-
-.nav-hotels{
+nav li:nth-child(3), nav li:nth-child(4){
   float: right;
-  margin-right: 31px;
+  margin-right: 30px;
+  margin-left: 45px;
   text-align: right;
 }
 
@@ -103,8 +94,18 @@ nav a:active{
   margin-bottom: 53px;
   padding-top: 73px;
   background: #e4f1fa url("../img/background.jpg") no-repeat;
-  background-position: 0% 52%;
+  background-position: 0% 22%;
   outline: 1px solid black;
+}
+
+.greetin::after{
+  content: "";
+  position: absolute;
+  width: 1200px;
+  height: 57px;
+  background: url("../img/shape.png") no-repeat;
+  top: 0;
+  left: 0;
 }
 
 .greeting-img{
@@ -112,10 +113,11 @@ nav a:active{
   margin-bottom: 135px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 76px;
   outline: 1px solid black;
 }
 
-.greeting-text{
+.about-Sedona{
   width: 574px;
   margin-bottom: 50px;
   margin-left: auto;
@@ -123,7 +125,7 @@ nav a:active{
   outline: 1px solid black;
 }
 
-.greeting-text b{
+.about-Sedona b{
   display: block;
   width: 445px;
   margin: 0 auto;
@@ -134,7 +136,7 @@ nav a:active{
   outline: 1px solid black;
 }
 
-.greeting-text p{
+.about-Sedona p{
   display: block;
   width: 495px;
   margin: 0 auto;
@@ -171,7 +173,7 @@ nav a:active{
 
 .blue-block p{
   display: block;
-  width: 309.5px;
+  width: 309px;
   margin: 0 auto;
   margin-top: 23px;
   font-size: 14px;
@@ -304,10 +306,10 @@ nav a:active{
 .search-btn{
   display: block;
   width: 568px;
-  height: 86px;
   margin: 0 auto;
   margin-top: 47px;
   padding-top: 30px;
+  padding-bottom: 30px;
   box-sizing: border-box;
   font-size: 21px;
   font-weight: bold;
